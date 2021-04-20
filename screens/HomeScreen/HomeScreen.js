@@ -56,7 +56,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
-
     backgroundColor: "white",
   },
   logo: {
@@ -90,7 +89,7 @@ const styles = StyleSheet.create({
     paddingBottom: 30,
   },
   button: {
-    height: 48,
     marginTop: 10,
+    paddingVertical:15,
   },
 });
