@@ -43,7 +43,7 @@ export default function SignUpScreen() {
             onPress={() => navigation.navigate("SignUp")}
             containerStyle={{ marginBottom: 5 }}
             title="Sign Up"
-            buttonStyle={{ backgroundColor: "#3D67F2", paddingVertical:15}}
+            buttonStyle={{ backgroundColor: "#3D67F2", paddingVertical: 15}}
           />
         </View>
       </View>
@@ -58,19 +58,19 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
   },
   logo: {
-    marginTop: "10.94%",
+    marginTop: 90,
     width: 80,
     height: 80,
   },
   inputContainer: {
-    width: "80%",
+    width: "85%",
     marginTop: 50,
   },
   input: {
     backgroundColor: "#F2F5FA",
     paddingLeft: 16,
     paddingVertical: 15,
-    borderWidth:0,
+    borderWidth: 0,
   },
   actionButtonsContainer: {
     marginTop: 16,
